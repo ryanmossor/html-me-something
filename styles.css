@@ -22,7 +22,7 @@ body {
     max-width: 1080px;
     margin: auto;
     font-family: Helvetica;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/images/forest.png");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/forest.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
