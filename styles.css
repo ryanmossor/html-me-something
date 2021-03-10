@@ -48,12 +48,25 @@ p {
     padding-right: 100px;
 }
 
-a, span {
+a:link, a:visited, span {
     color: #f7e279;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: lightgreen;
 }
 
 #ocs {
     width: 80%;
+}
+
+.oot {
+    width: 40%;
+    padding: 20px 
 }
 
 /* figure {
