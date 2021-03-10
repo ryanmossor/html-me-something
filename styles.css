@@ -1,0 +1,66 @@
+h1 {
+    text-shadow: 2px 2px #111111;
+    font-size: 2.5em;
+}
+
+h1, h2, nav, div, figcaption, figure, footer {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    text-shadow: 2px 1px 1px #111111;
+}
+
+body {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    font-family: Helvetica;
+    font-size: 105%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/images/forest.png");
+    background-attachment: fixed;
+    background-position: center;
+    /* background-size: auto; */
+    /* background-color: #fff; */
+    color: #bec7d2;
+}
+
+main {
+    background-color: rgba(0,0,0,0.5);
+    /* padding-top: 1px; */
+    padding-bottom: 20px;
+}
+
+figcaption {
+    padding-bottom: 20px;
+}
+
+header, footer, article, section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+a, span {
+    color: #f7e279;
+}
+
+#ocs {
+    width: 80%;
+}
+
+/* figure {
+    width: 80%;
+} */
+
+/* ::selection {
+    background: #772CE8;
+    color: #ffffff;
+} */
