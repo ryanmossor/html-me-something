@@ -1,16 +1,19 @@
 h1 {
-    text-shadow: 2px 2px #111111;
+    text-shadow: 2px 2px 1px #111111;
     font-size: 2.5em;
 }
 
-h1, h2, nav, div, figcaption, figure, footer {
+h1, div, figcaption, figure, footer {
     text-align: center;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 15px;
+    padding: 0px 20px 15px 20px; /* top, right, bottom, left */
+}
+
+footer, nav {
     text-shadow: 2px 1px 1px #111111;
 }
 
@@ -19,33 +22,38 @@ body {
     max-width: 1080px;
     margin: auto;
     font-family: Helvetica;
-    font-size: 105%;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/images/forest.png");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/images/forest.png");
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    /* background-size: auto; */
-    /* background-color: #fff; */
+    background-position: left;
     color: #bec7d2;
 }
 
 main {
-    background-color: rgba(0,0,0,0.5);
-    /* padding-top: 1px; */
+    background-color: rgba(0,0,0,0.7);
+    font-size: 105%;
     padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+figure {
+    padding-top: 20px;
 }
 
 figcaption {
     padding-bottom: 20px;
 }
 
-header, footer, article, section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+header, footer, article {
+    padding: 15px 0px; /* top/bottom, then left/right padding */
 }
 
-p {
-    padding-left: 100px;
-    padding-right: 100px;
+section {
+    padding-top: 5px;
+}
+
+p, h2 {
+    padding: 0px 100px;
 }
 
 a:link, a:visited, span {
@@ -53,27 +61,29 @@ a:link, a:visited, span {
 }
 
 a:hover {
-    color: #fff;
+    color: springgreen;
 }
 
 a:active {
-    color: lightgreen;
+    color: #00cc00;
 }
 
 #ocs {
     width: 80%;
 }
 
-.oot {
-    width: 40%;
-    padding: 20px 
+.video, .oot {
+    padding: 20px;
 }
 
-/* figure {
-    width: 80%;
-} */
+.oot {
+    width: 40%;
+}
 
-/* ::selection {
-    background: #772CE8;
-    color: #ffffff;
-} */
+.top {
+    padding-top: 15px;
+}
+
+.bottom {
+    padding-bottom: 15px;
+}
